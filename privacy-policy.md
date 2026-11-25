@@ -43,13 +43,18 @@ We do not sell, rent, or trade users' account information.
 Information may be accessible to the infrastructure provider hosting the Service as necessary for server operation and maintenance.
 
 We do not intentionally share account-linking information with unrelated third parties.
-5. Data Retention and Deletion
 
-Account-linking information is retained while the account association is active.
+### 5. Data Retention and Deletion
 
-When an account is unlinked, its associated linking information should be deleted from the active database.
+When a user unlinks their Minecraft and Discord accounts, the primary account-linking record is deleted from the active account-linking database.
 
-Users may also contact the Eclipse administration team to request access to or deletion of their account-linking information.
+However, certain associated settings, such as player preferences, language preferences, or administrative bypass settings, may remain stored separately.
+
+Additionally, unlinking events may be recorded in the Discord server's administrative log channel. These records may contain Minecraft usernames, Minecraft UUIDs, Discord User IDs, and information about who performed the action.
+
+Users may contact the Eclipse administration team through the official Discord support server to request the deletion of remaining personal information.
+
+Backup copies and previously generated administrative logs may retain information until they are independently deleted or replaced.
 
 Please note that backup copies may temporarily retain information until they are replaced or deleted.
 6. Data Security
